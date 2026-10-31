@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>REPETA – Dijital Yanlış Defteri</title>
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="REPETA"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#1b2340"><link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Caveat:wght@600&display=swap">
+<style>
+:root{--bg:#f6f7fb;--paper:#fff;--ink:#1b2340;--mute:#667090;--line:#dde2ef;--red:#d6303f;--redbg:#fde8ea;--green:#1f8a5b;--greenbg:#e2f5ec;--blue:#2f4bd8;
+--grid:rgba(47,75,216,.07);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10142a;--paper:#192040;--ink:#eef0fa;--mute:#98a2c8;--line:#2b3566;--red:#ff6b78;--redbg:#3a1d2c;--green:#4cd39a;--greenbg:#15332f;--blue:#8da0ff;--grid:rgba(141,160,255,.07);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10142a;--paper:#192040;--ink:#eef0fa;--mute:#98a2c8;--line:#2b3566;--red:#ff6b78;--redbg:#3a1d2c;--green:#4cd39a;--greenbg:#15332f;--blue:#8da0ff;--grid:rgba(141,160,255,.07);color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;font:16px/1.5 "Bricolage Grotesque",system-ui,sans-serif;color:var(--ink);background:var(--bg) linear-gradient(var(--grid) 1px,transparent 1px) 0 0/100% 28px;min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 96px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-left:18px;border-left:3px solid var(--red);margin-bottom:18px}
+h1{margin:0;font-size:2rem;font-weight:800;letter-spacing:.02em}
+.slogan{font-family:Caveat,cursive;font-size:1.3rem;color:var(--red);margin:-4px 0 0}
+nav{display:flex;gap:6px;margin-bottom:18px;overflow-x:auto}
+nav button{flex:1;min-width:max-content;padding:10px 14px;border:1px solid var(--line);background:var(--paper);color:var(--mute);border-radius:10px;font:inherit;font-weight:600;cursor:pointer}
+nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+.card.fav{border-color:#e6b422}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grow{flex:1;min-width:140px}
+input,select,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+textarea{min-height:70px;resize:vertical}
+label{display:block;font-weight:600;font-size:.9rem;margin:10px 0 4px}
+.btn{padding:10px 16px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+.btn.pri{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.ok{background:var(--green);border-color:var(--green);color:#fff}
+.btn.bad{background:var(--red);border-color:var(--red);color:#fff}
+.btn.sm{padding:5px 10px;font-size:.85rem}
+.wrong{background:var(--redbg);border-radius:8px;padding:8px 12px;margin:8px 0}
+.right{background:var(--greenbg);border-radius:8px;padding:8px 12px;margin:8px 0}
+.wrong b{color:var(--red)}.right b{color:var(--green)}
+.why{font-family:Caveat,cursive;font-size:1.25rem;color:var(--mute);margin:6px 0}
+.chip{display:inline-block;padding:2px 10px;border-radius:99px;background:var(--bg);border:1px solid var(--line);font-size:.8rem;color:var(--mute);margin:2px 4px 2px 0}
+.box{display:inline-flex;gap:3px;vertical-align:middle}.box i{width:14px;height:6px;border-radius:3px;background:var(--line)}.box i.f{background:var(--green)}
+.empty{text-align:center;color:var(--mute);padding:36px 12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px}.stat b{font-size:1.8rem;display:block;line-height:1.1}.stat span{color:var(--mute);font-size:.85rem}
+.bar{height:10px;border-radius:5px;background:var(--line);overflow:hidden;margin:4px 0 12px}.bar>div{height:100%;background:var(--red)}.bar.g>div{background:var(--green)}
+.days{display:flex;gap:8px;align-items:flex-end;height:90px}.days div{flex:1;text-align:center;font-size:.75rem;color:var(--mute)}.days i{display:block;background:var(--blue);border-radius:4px 4px 0 0;min-height:3px;margin-bottom:4px}
+.opt{display:block;width:100%;text-align:left;margin:6px 0}.opt.c{background:var(--greenbg);border-color:var(--green)}.opt.w{background:var(--redbg);border-color:var(--red)}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);width:min(560px,94vw);padding:20px}dialog::backdrop{background:rgba(10,14,30,.5)}
+[hidden]{display:none!important}.shot{display:block;max-width:100%;max-height:360px;border-radius:8px;border:1px solid var(--line);margin:8px 0}
+.prog{color:var(--mute);font-size:.9rem;margin-bottom:8px}
+.big{font-size:1.25rem;font-weight:600;margin:6px 0 12px}
+@media (prefers-reduced-motion:no-preference){.bar>div,.days i{transition:all .4s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div><h1>REPETA</h1><p class="slogan">Learn. Repeat. Improve.</p></div><div class="row"><button class="btn sm" id="theme" aria-label="Tema değiştir">Tema</button><button class="btn sm" id="prof">Profil</button></div></header>
+<nav id="nav"></nav>
+<main id="main"></main>
+</div>
+<dialog id="dlg"></dialog>
+<script>
+const KEY="repeta.v1",DAYS=[0,1,3,7,16],DAY=864e5;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const uid=()=>Math.random().toString(36).slice(2,9);
+let S={user:"",items:[],log:[]};
+try{const r=localStorage.getItem(KEY);if(r)S=JSON.parse(r)}catch(e){}
+const DEMOQ=["I ___ in Istanbul for five years.","Sinüs 30° kaçtır?","Hücrede enerji üretiminin yapıldığı organel hangisidir?","“Affect” ve “effect” farkı nedir?"];
+S.items=S.items.filter(i=>!DEMOQ.includes(i.q));
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){alert("Depolama alanı doldu. Yer açmak için bazı fotoğraflı kayıtları sil.")}};
+const qh=it=>(it.img?`<img class="shot" src="${it.img}" alt="Soru fotoğrafı">`:"")+(it.q?`<div class="big">${esc(it.q)}</div>`:"");
+function shrink(f){return new Promise((res,rej)=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{const k=Math.min(1,1100/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);res(c.toDataURL("image/jpeg",.72))};im.onerror=rej;im.src=u})}
+let view="defter",F={cat:"",q:"",fav:false},R=null,T=null;
+const TABS=[["defter","Defter"],["tekrar","Tekrar"],["test","Mini test"],["stat","Gelişim"]];
+const due=()=>S.items.filter(i=>i.due<=Date.now());
+function grade(it,ok){
+  if(ok){it.box=Math.min(it.box+1,4)}else{it.box=0;it.wrongCount=(it.wrongCount||0)+1}
+  it.due=Date.now()+DAYS[it.box]*DAY+(ok?0:0);S.log.push({t:Date.now(),ok});save();
+}
+function boxes(n){return '<span class="box" title="Seviye '+n+'/4">'+[0,1,2,3].map(i=>'<i class="'+(n>i?'f':'')+'"></i>').join("")+'</span>'}
+function nav(){$("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${view===k?'on':''}" data-v="${k}">${l}${k==="tekrar"&&due().length?` (${due().length})`:""}</button>`).join("");
+  $("#nav").querySelectorAll("button").forEach(b=>b.onclick=()=>{view=b.dataset.v;R=null;T=null;render()})}
+function render(){nav();({defter:vDefter,tekrar:vTekrar,test:vTest,stat:vStat})[view]();}
+function cats(){return [...new Set(S.items.map(i=>i.cat).filter(Boolean))].sort()}
+function vDefter(){
+  const list=S.items.filter(i=>(!F.cat||i.cat===F.cat)&&(!F.fav||i.fav)&&(!F.q||[i.q,i.wrong,i.right,i.why,i.topic,(i.tags||[]).join(" ")].join(" ").toLowerCase().includes(F.q.toLowerCase()))).sort((a,b)=>b.created-a.created);
+  $("#main").innerHTML=`<div class="card row"><input class="grow" id="q" placeholder="Defterde ara" value="${esc(F.q)}"><select id="fc" style="width:auto"><option value="">Tüm dersler</option>${cats().map(c=>`<option ${F.cat===c?"selected":""}>${esc(c)}</option>`).join("")}</select><button class="btn ${F.fav?"pri":""}" id="ff">Favoriler</button><button class="btn" id="add">Yazarak ekle</button><button class="btn pri" id="cam">Fotoğrafla ekle</button></div>`+
+  (list.length?list.map(it=>`<article class="card ${it.fav?"fav":""}"><div class="row" style="justify-content:space-between"><div><span class="chip">${esc(it.cat||"Kategorisiz")}</span>${it.topic?`<span class="chip">${esc(it.topic)}</span>`:""}${(it.tags||[]).map(t=>`<span class="chip">#${esc(t)}</span>`).join("")}</div>${boxes(it.box)}</div>
+  ${qh(it)}<div class="wrong"><b>Yanlış cevabım:</b> ${esc(it.wrong)}</div><div class="right"><b>Doğru cevap:</b> ${esc(it.right)}</div>${it.why?`<div class="why">${esc(it.why)}</div>`:""}
+  <div class="row"><button class="btn sm" data-f="${it.id}">${it.fav?"Favoriden çıkar":"Favorile"}</button><button class="btn sm" data-e="${it.id}">Düzenle</button><button class="btn sm" data-d="${it.id}">Sil</button><span class="chip">${it.wrongCount||1} kez yanlış</span></div></article>`).join(""):`<div class="empty">${S.items.length?"Aramanla eşleşen kayıt yok.":"Defterin boş. Bir soruyu fotoğraflayarak ya da yazarak ilk yanlışını ekle."}</div>`);
+  $("#q").oninput=e=>{F.q=e.target.value;const p=e.target.selectionStart;vDefter();const q=$("#q");q.focus();q.setSelectionRange(p,p)};
+  $("#fc").onchange=e=>{F.cat=e.target.value;vDefter()};$("#ff").onclick=()=>{F.fav=!F.fav;vDefter()};$("#add").onclick=()=>edit();$("#cam").onclick=()=>{edit();$("#pc").click()};
+  document.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{const it=S.items.find(i=>i.id===b.dataset.f);it.fav=!it.fav;save();vDefter()});
+  document.querySelectorAll("[data-e]").forEach(b=>b.onclick=()=>edit(b.dataset.e));
+  document.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>{if(confirm("Bu kayıt silinsin mi?")){S.items=S.items.filter(i=>i.id!==b.dataset.d);save();render()}});
+}
+function edit(id){
+  const it=id?S.items.find(i=>i.id===id):{q:"",wrong:"",right:"",why:"",cat:"",topic:"",tags:[]};let img=it.img||"";
+  const d=$("#dlg");d.innerHTML=`<h2 style="margin-top:0">${id?"Kaydı düzenle":"Yanlış ekle"}</h2>
+  <label>Fotoğraf</label><div class="row"><label class="btn sm" style="margin:0">Fotoğraf çek<input type="file" accept="image/*" capture="environment" id="pc" hidden></label><label class="btn sm" style="margin:0">Galeriden seç<input type="file" accept="image/*" id="pg" hidden></label><button class="btn sm" id="pr" hidden>Fotoğrafı kaldır</button></div><img id="pv" class="shot" alt="Seçilen fotoğraf" hidden>
+  <label for="eq">Soru veya konu (fotoğraf varsa boş bırakabilirsin)</label><textarea id="eq">${esc(it.q)}</textarea>
+  <label for="ew">Yanlış cevabım</label><input id="ew" value="${esc(it.wrong)}">
+  <label for="er">Doğru cevap</label><input id="er" value="${esc(it.right)}">
+  <label for="ey">Hatanın nedeni</label><textarea id="ey">${esc(it.why)}</textarea>
+  <div class="row"><div class="grow"><label for="ec">Ders / kategori</label><input id="ec" list="cl" value="${esc(it.cat)}"><datalist id="cl">${cats().map(c=>`<option value="${esc(c)}">`).join("")}</datalist></div><div class="grow"><label for="et">Konu</label><input id="et" value="${esc(it.topic)}"></div></div>
+  <label for="eg">Etiketler (virgülle ayır)</label><input id="eg" value="${esc((it.tags||[]).join(", "))}">
+  <p id="er2" style="color:var(--red);margin:8px 0 0"></p>
+  <div class="row" style="margin-top:14px;justify-content:flex-end"><button class="btn" id="cx">Vazgeç</button><button class="btn pri" id="sv">Kaydet</button></div>`;
+  d.showModal();$("#cx").onclick=()=>d.close();
+  const pv=$("#pv"),pr=$("#pr"),show=()=>{pv.hidden=!img;pr.hidden=!img;if(img)pv.src=img};show();
+  const pick=async e=>{const f=e.target.files[0];if(!f)return;try{img=await shrink(f);show()}catch(x){$("#er2").textContent="Fotoğraf okunamadı. Başka bir görsel dene."}};
+  $("#pc").onchange=pick;$("#pg").onchange=pick;pr.onclick=()=>{img="";show()};
+  $("#sv").onclick=()=>{
+    const v=k=>$("#"+k).value.trim();
+    if((!v("eq")&&!img)||!v("er")){$("#er2").textContent="Soru (veya fotoğraf) ve doğru cevap alanları boş bırakılamaz.";return}
+    const o={img,q:v("eq"),wrong:v("ew")||"—",right:v("er"),why:v("ey"),cat:v("ec"),topic:v("et"),tags:v("eg").split(",").map(s=>s.trim().replace(/^#/,"")).filter(Boolean)};
+    if(id)Object.assign(it,o);else S.items.push({id:uid(),...o,fav:false,box:0,due:Date.now(),wrongCount:1,created:Date.now()});
+    save();d.close();render();
+  };
+}
+function vTekrar(){
+  if(!R){const ids=due().sort((a,b)=>a.due-b.due).map(i=>i.id);R={ids,i:0,show:false,ok:0}}
+  const m=$("#main");
+  if(R.i>=R.ids.length){m.innerHTML=R.ids.length?`<div class="card empty"><div class="big">Tekrar tamamlandı</div>${R.ok}/${R.ids.length} kartı hatırladın. Hatırlayamadıkların yarın yeniden karşına çıkar.</div>`:`<div class="card empty"><div class="big">Bugün tekrar edilecek kart yok</div>Yeni yanlışlar ekleyebilir veya mini test çözebilirsin.</div>`;return}
+  const it=S.items.find(x=>x.id===R.ids[R.i]);if(!it){R.i++;return vTekrar()}
+  m.innerHTML=`<div class="card"><div class="prog">Kart ${R.i+1} / ${R.ids.length} · ${esc(it.cat||"Kategorisiz")} ${boxes(it.box)}</div>${qh(it)}
+  ${R.show?`<div class="right"><b>Doğru cevap:</b> ${esc(it.right)}</div>${it.why?`<div class="why">${esc(it.why)}</div>`:""}<div class="row" style="margin-top:12px"><button class="btn ok grow" id="y">Hatırladım</button><button class="btn bad grow" id="n">Hatırlayamadım</button></div>`:`<button class="btn pri" id="s">Cevabı göster</button>`}</div>`;
+  if(R.show){$("#y").onclick=()=>{grade(it,true);R.ok++;R.i++;R.show=false;vTekrar();nav()};$("#n").onclick=()=>{grade(it,false);R.i++;R.show=false;vTekrar();nav()}}
+  else $("#s").onclick=()=>{R.show=true;vTekrar()};
+}
+function vTest(){
+  const m=$("#main");
+  if(S.items.length<1){m.innerHTML='<div class="card empty">Test oluşturmak için önce deftere yanlış ekle.</div>';return}
+  if(!T){m.innerHTML=`<div class="card"><div class="big">Yanlışlarından mini test</div><p>Kayıtlı yanlışlarından rastgele sorular seçilir. En çok yanlış yaptıkların daha sık çıkar.</p><label for="tn">Soru sayısı</label><select id="tn" style="width:auto">${[5,10,15].map(n=>`<option>${n}</option>`).join("")}</select><label for="tc">Ders</label><select id="tc" style="width:auto"><option value="">Hepsi</option>${cats().map(c=>`<option>${esc(c)}</option>`).join("")}</select><div style="margin-top:14px"><button class="btn pri" id="go">Testi başlat</button></div></div>`;
+    $("#go").onclick=()=>{const c=$("#tc").value,n=+$("#tn").value;
+      let pool=S.items.filter(i=>!c||i.cat===c);const pick=[];
+      while(pick.length<Math.min(n,pool.length)){const w=pool.filter(p=>!pick.includes(p));const tot=w.reduce((s,p)=>s+(p.wrongCount||1),0);let r=Math.random()*tot;for(const p of w){r-=(p.wrongCount||1);if(r<=0){pick.push(p);break}}}
+      const all=[...new Set(S.items.map(i=>i.right))];
+      T={qs:pick.map(it=>{const d=all.filter(a=>a!==it.right).sort(()=>Math.random()-.5).slice(0,3);return{id:it.id,opts:[it.right,...d].sort(()=>Math.random()-.5)}}),i:0,score:0,pick:null};vTest()};return}
+  if(T.i>=T.qs.length){m.innerHTML=`<div class="card empty"><div class="big">Test bitti: ${T.score} / ${T.qs.length}</div><button class="btn pri" id="re">Yeni test</button></div>`;$("#re").onclick=()=>{T=null;vTest()};return}
+  const q=T.qs[T.i],it=S.items.find(x=>x.id===q.id);
+  m.innerHTML=`<div class="card"><div class="prog">Soru ${T.i+1} / ${T.qs.length}</div>${qh(it)}${q.opts.length>1?q.opts.map((o,k)=>`<button class="btn opt ${T.pick!==null?(o===it.right?"c":k===T.pick?"w":""):""}" data-k="${k}" ${T.pick!==null?"disabled":""}>${esc(o)}</button>`).join(""):`<div class="right"><b>Doğru cevap:</b> ${esc(it.right)}</div>`}
+  ${T.pick!==null||q.opts.length<2?`${it.why?`<div class="why">${esc(it.why)}</div>`:""}<button class="btn pri" id="nx" style="margin-top:8px">${T.i+1<T.qs.length?"Sonraki soru":"Sonucu gör"}</button>`:""}</div>`;
+  m.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,ok=q.opts[k]===it.right;T.pick=k;if(ok)T.score++;grade(it,ok);vTest();nav()});
+  const nx=$("#nx");if(nx)nx.onclick=()=>{T.i++;T.pick=null;vTest()};
+}
+function vStat(){
+  const n=S.items.length,mast=S.items.filter(i=>i.box>=4).length,d=due().length,rev=S.log.length,okc=S.log.filter(l=>l.ok).length;
+  const bycat={};S.items.forEach(i=>{const c=i.cat||"Kategorisiz";(bycat[c]=bycat[c]||{n:0,w:0});bycat[c].n++;bycat[c].w+=(i.wrongCount||1)});
+  const cl=Object.entries(bycat).sort((a,b)=>b[1].w-a[1].w),mx=Math.max(1,...cl.map(c=>c[1].w));
+  const topics=[...S.items].sort((a,b)=>(b.wrongCount||1)-(a.wrongCount||1)).slice(0,3);
+  const days=[...Array(7)].map((_,k)=>{const b=new Date();b.setHours(0,0,0,0);const s=b.getTime()-(6-k)*DAY;return{s,c:S.log.filter(l=>l.t>=s&&l.t<s+DAY).length}});
+  const dm=Math.max(1,...days.map(x=>x.c));
+  $("#main").innerHTML=`<div class="stats"><div class="stat"><b>${n}</b><span>Kayıtlı yanlış</span></div><div class="stat"><b>${mast}</b><span>Kalıcı öğrenilen</span></div><div class="stat"><b>${d}</b><span>Bugün tekrar</span></div><div class="stat"><b>${rev?Math.round(okc/rev*100)+"%":"–"}</b><span>Tekrar başarısı</span></div></div>
+  <div class="card"><b>Öğrenme ilerlemesi</b><div class="bar g"><div style="width:${n?mast/n*100:0}%"></div></div>
+  <b>En çok hata yapılan dersler</b>${cl.length?cl.map(([c,v])=>`<div class="row" style="justify-content:space-between"><span>${esc(c)}</span><span class="chip">${v.w} hata · ${v.n} kayıt</span></div><div class="bar"><div style="width:${v.w/mx*100}%"></div></div>`).join(""):'<p class="empty">Veri yok.</p>'}</div>
+  <div class="card"><b>Son 7 gün tekrar sayısı</b><div class="days" style="margin-top:10px">${days.map(x=>`<div><i style="height:${x.c/dm*60}px"></i>${x.c}</div>`).join("")}</div></div>
+  ${topics.length?`<div class="card"><b>Tekrar eden hata kalıpları</b>${topics.map(t=>`<p style="margin:8px 0">${esc(t.topic||t.q)} <span class="chip">${esc(t.cat||"")}</span> <span class="chip">${t.wrongCount||1} kez yanlış</span></p>`).join("")}</div>`:""}`;
+}
+$("#prof").onclick=()=>{const d=$("#dlg");d.innerHTML=`<h2 style="margin-top:0">Profil</h2><label for="pn">Adın</label><input id="pn" value="${esc(S.user)}" placeholder="Adını yaz"><p style="color:var(--mute);font-size:.9rem">Verilerin yalnızca bu tarayıcıda saklanır.</p><div class="row" style="justify-content:space-between;margin-top:12px"><button class="btn bad" id="rs">Tüm verileri sil</button><div class="row"><button class="btn" id="cx">Kapat</button><button class="btn pri" id="sv">Kaydet</button></div></div>`;d.showModal();
+  $("#cx").onclick=()=>d.close();$("#sv").onclick=()=>{S.user=$("#pn").value.trim();save();d.close();hello()};
+  $("#rs").onclick=()=>{if(confirm("Tüm kayıtlar kalıcı olarak silinsin mi?")){S={user:"",items:[],log:[],seeded:1};save();d.close();R=null;T=null;render()}}};
+function hello(){document.querySelector(".slogan").textContent=S.user?`Merhaba ${S.user}, Learn. Repeat. Improve.`:"Learn. Repeat. Improve."}
+$("#theme").onclick=()=>{const r=document.documentElement,dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=dark?"light":"dark"};
+hello();render();
+</script>
+</body>
+</html>
